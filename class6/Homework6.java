@@ -1,3 +1,7 @@
+/*
+ * Homework 6
+ */
+
 import java.util.Scanner;
 
 class BankAccount{
