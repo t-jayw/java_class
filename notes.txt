@@ -1,0 +1,12 @@
+finalize is called at garbage collection time
+
+
+create an array:
+
+String[] friends = {'Basie', 'Hendrix', 'Chopin'}
+// array initializer
+
+for(int i = 0; i<friends.length; i++)
+{
+    System.out.println(friends[i])
+}

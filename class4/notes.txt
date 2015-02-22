@@ -1,0 +1,19 @@
+static fields are class variables
+non-static fields are instance variables
+
+methods w/in a class will always have a return type (not constructors)
+ClassName methodName
+
+Constructors have same name as the class
+
+class level variables are fileds
+
+
+CLASS
+-field
+-constructor
+--local variables
+-method
+--local variables
+
+
