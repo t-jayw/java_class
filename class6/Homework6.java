@@ -1,5 +1,7 @@
 /*
+ * Student s17tw, Tyler WOOD
  * Homework 6
+ * Usage: java Homework 6 <optional type> <optional amount>
  */
 
 import java.util.Scanner;
