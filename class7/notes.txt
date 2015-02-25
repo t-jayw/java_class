@@ -1,0 +1,7 @@
+abstract classes can't be implemented
+you must create a new class that extends in the abstract class
+
+abstract class HelloAbstractWorld{ }
+class ImplementIt extends HelloAbstractWorld { }
+
+:
