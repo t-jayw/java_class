@@ -13,7 +13,7 @@ class Mammal {
     }
 
     public void announce(){
-        System.out.println("I am " + this.name);
+        System.out.println("I am a mammal");
     }
 }
 
@@ -23,14 +23,23 @@ class Dog extends Mammal {
         super(name);
     }
 
-    public  void announce(){
+    public void announce(){
         System.out.println("Woof");
+    }
+
+    public void bark(){
+        this.announce();
+    }
+
+    public void superMethod(){
+        super.announce();
     }
 }
 
 class Homework7 {
     public static void main(String[] args){
         Dog spot = new Dog("spot");
-        spot.announce();
+        spot.bark();
+        spot.superMethod();
     }
 }
