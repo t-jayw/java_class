@@ -1,0 +1,29 @@
+interfaces are similar to abstract classes
+
+interface ISeries {
+    int BOILING_POINT = 100 // interface variables are implicitly final
+                            // and static 
+    int getNext()
+    void reset()
+    void setStart(int x);
+    }
+
+interface ITaxable {
+    double calculateSalesTax();
+    }
+
+class ToyTruck { }
+
+class MySeries extends ToyTruck implements ISeries, ITaxable {
+    public int getNext() { return 5; }
+    public void reset () {}
+    public void setStart(int x)
+    public double calculateSalesTax();
+    }
+
+interface methods must be implemented in classes that implement
+
+
+
+
+
