@@ -13,6 +13,8 @@ Meow
 cant walk this beast
  */
 
+import java.util.ArrayList;
+
 abstract class Pet{
     abstract void speak();
     abstract void eat();
